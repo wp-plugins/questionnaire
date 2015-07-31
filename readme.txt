@@ -2,13 +2,13 @@
 Contributors: kurohara
 Donate link: 
 Tags: questionnaire, survey, comments, plugin
-Requires at least: 4.3
-Tested up to: 4.3
-Stable tag: 1.0.0
+Requires at least: 4.2.2
+Tested up to: 4.2.3
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Issue questionnaire on your won WordPress site.
+Issue questionnaire on your own WordPress site.
 
 == Description ==
 
