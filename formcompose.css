@@ -1,0 +1,195 @@
+/**
+ * formcompose.css
+ * Author: Hiroyoshi Kurohara(Microgadget,inc.)
+ * Author EMail: kurohara@yk.rim.or.jp
+ * License: GPLv2 or Lator.
+ */
+div.questionnaire_propsheet,div.questionnaire_answersheet, div.questionnaire_answerinfo {
+  border: 1px dotted;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+div.chkIsPublic {
+  margin-bottom: 10px;
+}
+
+.questionnaire_actForm fieldset {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  margin: 20px;
+  margin-left: 0px;
+  padding: 20px;
+}
+
+.questionnaire_actForm textarea {
+  width: 100%;
+}
+
+
+div.questionnaire_composeForm {
+  margin-top: 20px;
+}
+
+div.title {
+  margin-bottom: 20px;
+}
+
+div.questionnaire_propsheet button,div.questionnaire_answersheet button, div.questionnaire_answerinfo button {
+  background-color: #C0C0C0;
+  border-radius: 3px;
+}
+
+div.questionnaire_propsheet input[type=text] {
+  width: 60%;
+}
+
+table.aggregated {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+table.aggregated th {
+  border: 1px solid gray;
+  text-align: center;
+  background-color: #C0F0F0;
+}
+
+table.aggregated td {
+  border: 1px dotted;
+  text-align: center;
+}
+
+table.aggregated tr:last-child td {
+  border-bottom: 2px solid gray;
+}
+
+table.aggregated td.message {
+}
+
+table.doAnswer {
+  table-layout: auto;
+  border: none;
+}
+
+table.doAnswer td {
+  border: none;
+  padding-right: 20px;
+}
+
+table.doAnswer td:first-child {
+  width: 90px;
+}
+
+#questionnaire_doAnswerBtn {
+  padding: 5px;
+  height: 32px;
+  vertical-align: middle;
+  width: 90px;
+}
+
+div.questionnaire_status {
+  border: 2px dotted #f0f0f0;
+  width: 100%;
+  height: 32px;
+  padding: 5px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+div.aggregated {
+  border-top: 3px dotted gray;
+  border-bottom: 3px dotted gray;
+}
+
+fieldset.questionnaire_authorinfo {
+  border-style: solid;
+  border-width: 2px;
+  border-color: gray;
+  margin: 20px;
+  margin-left: 0px;
+  padding: 20px;
+}
+
+fieldset.questionnaire_authorinfo table {
+  border: none;
+  table-layout: auto;
+}
+
+fieldset.questionnaire_authorinfo table td {
+  border: none;
+}
+
+fieldset.questionnaire_authorinfo table td:first-child {
+  width: 150px;
+}
+
+fieldset.questionnaire_authorinfo table input {
+  width: 100%;
+}
+
+div.loading {
+  background-image: url("ajax-loader.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+table.waiting {
+  opacity: 0.4;
+}
+
+div.waiting {
+  opacity: 0.4;
+}
+
+div.ans_pagenav:hover {
+  cursor:pointer;
+}
+
+div.ans_pagenav {
+/*
+  width: auto;
+  display: inline;
+ */
+  float: right;
+}
+
+div.ans_download {
+/*  display: inline; */
+}
+
+div.questionnaire_dialog {
+  border-style: double;
+  border-color: gray;
+  z-index: 100;
+  background-color: khaki;
+  font-size: 12px;
+  margin: 5px;
+  padding: 5px;
+}
+
+div.questionnaire_dialog table, div.questionnaire_dialog table td {
+  border: none;
+  margin: 2px;
+  padding: 2px;
+}
+
+div.questionnaire_dialog button {
+  font-size: 10px;
+  margin: 2px;
+  padding: 2px;
+}
+
+div.questionnaire_dialog button {
+  background-color: gray;
+  border: solid 1px #aaaaaa;
+  border-radius: 3px;
+}
+
+
