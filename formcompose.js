@@ -96,7 +96,7 @@ function showSampleForm(formMeta) {
 
     switch (option) {
     case 'LBL':
-      fset = $('<fieldset><legend>'+text+'</legend></fieldset');
+      fset = $('<fieldset><legend>'+text+'</legend></fieldset>');
       testForm.append(fset);
       item = undefined;
       break;

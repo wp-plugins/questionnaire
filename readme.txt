@@ -4,7 +4,7 @@ Donate link:
 Tags: questionnaire, survey, comments, plugin
 Requires at least: 4.2.2
 Tested up to: 4.2.3
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -72,8 +72,11 @@ The answer for a questionnaire is stored as 'comment' data with special comment-
 
 
 == Changelog ==
-
-= 1.0 =
+= 1.0.2 =
+* fixed broken tag ('</fieldset').
+= 1.0.1 =
+* fixed the 'tested WordPress version'
+= 1.0.0 =
 * First release.
 
 == Other materials ==
