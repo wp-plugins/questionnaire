@@ -72,8 +72,11 @@ The answer for a questionnaire is stored as 'comment' data with special comment-
 
 
 == Changelog ==
-
-= 1.0 =
+= 1.0.2 =
+* fixed broken tag ('</fieldset').
+= 1.0.1 =
+* fixed the 'tested WordPress version'
+= 1.0.0 =
 * First release.
 
 == Other materials ==
