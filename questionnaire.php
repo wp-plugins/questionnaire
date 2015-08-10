@@ -3,7 +3,7 @@
 Plugin Name: questionnaire
 Plugin URI: http://www.microgadget-inc.com/labo/wordpress/questionnaire/
 Description: Application for collecting questionnaires.
-Version: 1.0.0
+Version: 1.0.2
 Author: Hiroyoshi Kurohara(Microgadget,inc.)
 Author URI: http://www.microgadget-inc.com/
 License: GPLv2 or later
